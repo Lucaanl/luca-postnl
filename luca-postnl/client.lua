@@ -1,5 +1,4 @@
 ESX = exports["es_extended"]:getSharedObject() -- ESX export, dont touch
-local loodsOwner = ESX.PlayerData.identifier
 local inDienst
 
 
@@ -13,13 +12,6 @@ local function spawnVeh()
 
     print('this code is sync!')
 end
-
--- Delivery anim function
-local function deliveryAnim()
-    local animDict = ''
-end
-
-
 
 -- ShowBlips for delivery locs
 local function ShowBlipsAndLoc(bool)
